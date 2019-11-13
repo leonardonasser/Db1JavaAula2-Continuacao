@@ -9,7 +9,7 @@ public class AppTest {
     public void ParaParLer1() {
         Application application = new Application();
         String response = application.texto("vai da certo");
-        String expected = response.toUpperCase();
+        String expected = response.toLowerCase();
         Assert.assertEquals(expected, response);
 
         System.out.printf(expected);

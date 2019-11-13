@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Application {
     public String texto(String escrita){
 
-        escrita="texto em maiusculo";
-        escrita=escrita.toUpperCase();
+        escrita="TEXTO EM MINUSCULO";
+        escrita=escrita.toLowerCase();
         return escrita;
 
 
