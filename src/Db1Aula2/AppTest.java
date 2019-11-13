@@ -8,17 +8,11 @@ public class AppTest {
     @Test
     public void ParaParLer1() {
         Application application = new Application();
-        Integer expected = 50;
-        Integer response = application.soma(30);
+        String response = application.texto("vai da certo");
+        String expected = response.toUpperCase();
         Assert.assertEquals(expected, response);
 
-        Integer x;
-        for(x=1;x<expected;x++){
-            if (x % 2 == 1) {
-                System.out.printf(x+" ");
-            }
-        }
-
+        System.out.printf(expected);
 
     }
 

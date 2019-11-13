@@ -1,15 +1,22 @@
 package Db1Aula2;
 
 
+import java.util.Scanner;
 
 public class Application {
-    public Integer soma(Integer numero){
+    public String texto(String escrita){
 
-        numero=50;
-        Integer x=0;
+        escrita="texto em maiusculo";
+        escrita=escrita.toUpperCase();
+        return escrita;
 
 
-        return numero;
+
+
+    }
+
+    public static void main(String[] args){
+
 
 
     }
