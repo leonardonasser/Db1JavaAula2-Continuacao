@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Application {
     public Integer texto(String escrita){
 
-        escrita="DB1START";
+        escrita=" DB1START ";
         Integer Quantidadedeletras=(escrita.length());
         return Quantidadedeletras;
 

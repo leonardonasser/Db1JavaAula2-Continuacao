@@ -9,10 +9,11 @@ public class AppTest {
     public void ValidarQuantidadeDeDB1START() {
         Application application = new Application();
         Integer response = application.texto("vai da certo");
-        Integer expected = 8;
+        Integer expected = 10;
         Assert.assertEquals(expected, response);
+Integer x=0;
 
-        System.out.printf("DB1START Tem "+expected+" letras");
+        System.out.printf("DB1START Tem 8 letras, mas está com "+expected+" caracteres contando com os espaço");
 
     }
 
