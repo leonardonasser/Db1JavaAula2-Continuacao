@@ -9,11 +9,14 @@ public class AppTest {
     public void ParaParLer1() {
         Application application = new Application();
         boolean expected = true;
-        boolean response = application.soma(2);
+        boolean response = application.soma(10,20);
         Assert.assertEquals(expected, response);
 
         if (expected == true) {
-            System.out.println("NUMERO PAR");
+            System.out.println("NUMERO 1 MENOR");
+        if(expected == false){
+            System.out.println("NUMERO 2 MENOR");
+        }
         }
     }
 
