@@ -4,11 +4,11 @@ package Db1Aula2;
 import java.util.Scanner;
 
 public class Application {
-    public String texto(String escrita){
+    public Integer texto(String escrita){
 
-        escrita="TEXTO EM MINUSCULO";
-        escrita=escrita.toLowerCase();
-        return escrita;
+        escrita="DB1START";
+        Integer Quantidadedeletras=(escrita.length());
+        return Quantidadedeletras;
 
 
 

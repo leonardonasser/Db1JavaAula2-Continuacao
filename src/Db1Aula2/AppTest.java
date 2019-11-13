@@ -6,13 +6,13 @@ import org.junit.Test;
 public class AppTest {
 
     @Test
-    public void ParaParLer1() {
+    public void ValidarQuantidadeDeDB1START() {
         Application application = new Application();
-        String response = application.texto("vai da certo");
-        String expected = response.toLowerCase();
+        Integer response = application.texto("vai da certo");
+        Integer expected = 8;
         Assert.assertEquals(expected, response);
 
-        System.out.printf(expected);
+        System.out.printf("DB1START Tem "+expected+" letras");
 
     }
 
