@@ -6,14 +6,14 @@ import org.junit.Test;
 public class AppTest {
 
     @Test
-    public void ValidarQuantidadeDeDB1START() {
+    public void ValidarTrocaDeItem4() {
         Application application = new Application();
-        Integer response = application.texto("vai da certo");
-        Integer expected = 10;
+        Integer response = application.texto("vai da certo","oaskosakosak");
+        Integer expected = 3;
         Assert.assertEquals(expected, response);
 Integer x=0;
 
-        System.out.printf("DB1START Tem 8 letras, mas está com "+expected+" caracteres contando com os espaço");
+        System.out.print(" E agora o item4 tem "+ expected+" letras");
 
     }
 
